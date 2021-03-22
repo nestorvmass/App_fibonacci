@@ -51,21 +51,17 @@ public class Actividad2 extends AppCompatActivity {
     public void NumeroAmigo(View view){
         //imprimir("Boton resolver");
         if(botonf.isChecked()==true){
-
         }
         if(botona.isChecked()==true){
             imprimir("Numero amigo Radiobuton2");
             etnumeroamigo.setEnabled(true);
         }
-
-
     }
 
 
     private void imprimir(String mensaje){
         System.out.println(mensaje);
     }
-
 
     public void activarRadio1(View view){
         etnumeroamigo.setEnabled(false);
